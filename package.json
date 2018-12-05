@@ -1,0 +1,27 @@
+{
+  "name": "dd-trace-koa-router-404-example",
+  "version": "0.0.1",
+  "description": "Quick demonstration of 404 errors in koa router when using dd-trace with other middleware",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quetzaluz/koa-dd-example.git"
+  },
+  "keywords": [
+    "cross",
+    "platform"
+  ],
+  "author": "Cyd La Luz",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "dd-trace": "^0.6.2",
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.3",
+    "koa-cors-error": "0.0.2",
+    "koa-router": "^7.4.0"
+  }
+}
