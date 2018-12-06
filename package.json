@@ -17,7 +17,6 @@
   "author": "Cyd La Luz",
   "license": "ISC",
   "dependencies": {
-    "@koa/cors": "^2.2.1",
     "dd-trace": "^0.6.2",
     "koa": "^2.5.1",
     "koa-body": "^4.0.3",

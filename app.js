@@ -14,7 +14,6 @@ tracer.use('koa')
 
 const Koa = require('koa')
 const router = require('./router')
-const cors = require('@koa/cors')
 const corsError = require('koa-cors-error')
 
 const config = {
@@ -25,7 +24,6 @@ const config = {
 const app = new Koa()
 
 app
-  .use(cors())
   .use(corsError)
   .use(router.routes())
   .listen(config.port, () => {
