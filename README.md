@@ -1,6 +1,6 @@
 ## Koa DataDog Agent example
 
-The purpose of this repo is to replicate a bug with Koa DataDog trace integration. Currently used for support ticket with DataDog support team.
+The purpose of this repo is to replicate a bug with Koa DataDog trace integration at version 0.6.2 of [dd-trace](https://www.npmjs.com/package/dd-trace). Was used for support ticket with DataDog support team and resulted in resolution published in version 0.7.2 of [dd-trace](https://www.npmjs.com/package/dd-trace).
 
 ### Setup
 - Set up datadog trace agent locally with default config:
